@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          sparse-checkout: "CamsApp.github.io" 
+          sparse-checkout: "camsapp" 
       - name: Detect package manager
         id: detect-package-manager
         run: |
