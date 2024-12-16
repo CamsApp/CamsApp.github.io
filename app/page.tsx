@@ -10,7 +10,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <p className="mt-4 text-xl font-semibold">Cam's App</p>
+        <p className="mt-4 text-xl font-semibold">Cam&#39;s App</p>
     </div>
   );
 }
