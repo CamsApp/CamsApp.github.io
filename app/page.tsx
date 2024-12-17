@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen space-y-4 px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen space-y-4 px-4 bg-black">
       <Image
         src="/clefairy.gif"
         alt="Next.js logo"
