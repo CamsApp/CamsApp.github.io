@@ -28,7 +28,7 @@ export default function Home() {
       />
       <p className="text-xl font-semibold">Cam&#39;s App</p>
 
-      <div className="mt-8 w-full sm:w-64">
+      <div className="mt-8 w-1/2 sm:w-64">
         <input
           type="password"
           placeholder="Enter password"
@@ -40,7 +40,7 @@ export default function Home() {
       
       <button
         onClick={handleSubmit}
-        className="w-full sm:w-64 p-3 mt-4 bg-blue-500 text-white rounded-md"
+        className="w-1/2 sm:w-64 p-3 mt-4 bg-blue-500 text-white rounded-md"
       >
         Submit
       </button>
