@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 export default function Bello() {
   const router = useRouter();
 
-  const handleNavigation = (page) => {
+  const handleNavigation = (page: string) => {
     router.push(page);
   };
 
