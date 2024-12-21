@@ -15,29 +15,29 @@ export default function Bello() {
 
       <div className="flex flex-col space-y-4">
         <button
-          onClick={() => handleNavigation('/page1')}
-          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg hover:bg-amber-400 transition-all"
+          onClick={() => handleNavigation('/youandi')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
           You and I &lt;3
         </button>
 
         <button
-          onClick={() => handleNavigation('/page2')}
-          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg hover:bg-amber-400 transition-all"
+          onClick={() => handleNavigation('/hungry')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
           Hungry?
         </button>
 
         <button
-          onClick={() => handleNavigation('/page3')}
-          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg hover:bg-amber-400 transition-all"
+          onClick={() => handleNavigation('/activities')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
           Fun Activities!
         </button>
 
         <button
-          onClick={() => handleNavigation('/page4')}
-          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg hover:bg-amber-400 transition-all"
+          onClick={() => handleNavigation('/compliments')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
           Compliments for You
         </button>
