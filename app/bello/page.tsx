@@ -12,7 +12,7 @@ export default function Bello() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen space-y-4 px-4 bg-pink-200">
-    <h1 className="text-5xl font-semibold mb-1 text-amber-900">Bello!</h1>
+    <h1 className="text-5xl font-semibold text-amber-900">Bello!</h1>
 
     <Countdown/>
 
@@ -32,10 +32,10 @@ export default function Bello() {
         </button>
 
         <button
-          onClick={() => handleNavigation('/activities')}
+          onClick={() => handleNavigation('/stargazing')}
           className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
-          Fun Activities!
+          Stars
         </button>
 
         <button
