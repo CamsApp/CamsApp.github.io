@@ -1,8 +1,10 @@
-export default function hunry(){
+import ChooseRestaurant from "../components/SpinCircle";
+
+export default function hungry(){
     return(
-        <div>
+        <div className = "bg-pink-200">
             <h1>
-                hungry
+                <ChooseRestaurant/>
             </h1>
         </div>
     )
