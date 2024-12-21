@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation';
+import Countdown from '../components/CountdownDating';
 
 export default function Bello() {
   const router = useRouter();
@@ -11,7 +12,9 @@ export default function Bello() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen space-y-4 px-4 bg-pink-200">
-    <h1 className="text-3xl font-semibold mb-8 text-amber-900">Bello!</h1>
+    <h1 className="text-5xl font-semibold mb-1 text-amber-900">Bello!</h1>
+
+    <Countdown/>
 
       <div className="flex flex-col space-y-4">
         <button
