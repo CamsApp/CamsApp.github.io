@@ -17,7 +17,6 @@ export default function Stargazing() {
             }}
         >
             <Countdown />
-            <h1>stars</h1>
         </div>
     );
 }

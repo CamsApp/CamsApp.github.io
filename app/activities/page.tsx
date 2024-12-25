@@ -1,8 +1,10 @@
-export default function activities(){
+import ChooseActivities from "../components/SpinCircleActivities";
+
+export default function hungry(){
     return(
-        <div>
+        <div className = "bg-pink-200">
             <h1>
-                activities
+                <ChooseActivities/>
             </h1>
         </div>
     )
