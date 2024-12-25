@@ -31,8 +31,8 @@ const Countdown = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="text-center p-4 border-2 border-neutral-100	 rounded-lg shadow-md bg-transparent text-black">
-        <h1 className="text-xl font-bold mb-2 text-neutral-100	">We've been together for...</h1>
-        <p className="text-lg font-semibold text-neutral-100	">{timeLeft}</p>
+      <h1 className="text-xl font-bold mb-2 text-neutral-100">We&apos;ve been together for...</h1>
+      <p className="text-lg font-semibold text-neutral-100	">{timeLeft}</p>
       </div>
     </div>
   );

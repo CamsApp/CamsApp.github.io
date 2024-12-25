@@ -1,7 +1,6 @@
 'use client'
 
 import { useRouter } from 'next/navigation';
-import Countdown from '../components/CountdownDating';
 
 export default function Bello() {
   const router = useRouter();
