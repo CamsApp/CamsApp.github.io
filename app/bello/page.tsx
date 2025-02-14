@@ -48,6 +48,13 @@ export default function Bello() {
         >
           Compliments for You
         </button>
+
+        <button
+          onClick={() => handleNavigation('/valentines')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
+        >
+          Happy Valentine's Day!
+        </button>
       </div>
     </div>
   );
