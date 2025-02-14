@@ -99,9 +99,9 @@ const LoveList = () => {
     "When you kick your feet all happy",
     "Our NYC trip to visit Shaine",
     "How good you are at Mario Kart",
+    "How easily you pick up games and sports",
     "Snow Lake",
     "How you wear my name on your bracelet, and yours on mine",
-    "How easily you pick up games and sports"
   ];
 
   return (
