@@ -20,7 +20,7 @@ export default function Otterington() {
         onClick={() => setIsOpen((current) => !current)}
       >
         {isOpen ? (
-          <div className="envelope-letter envelope-letter-open p-6 sm:p-8">
+          <div className="envelope-letter envelope-letter-open overflow-y-auto p-5 sm:p-8">
             <p className="romantic-font mt-3 text-lg leading-relaxed text-amber-800 sm:text-xl">
               <span className="block">Dear Otterington,</span>
               <span className="block">
@@ -34,7 +34,7 @@ export default function Otterington() {
                 alt="Otterington"
                 width={640}
                 height={480}
-                className="h-28 w-full object-contain sm:h-36"
+                className="h-24 w-full object-contain sm:h-36"
               />
             </div>
           </div>
