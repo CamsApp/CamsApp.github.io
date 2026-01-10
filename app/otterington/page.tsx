@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Otterington() {
@@ -19,13 +20,22 @@ export default function Otterington() {
         onClick={() => setIsOpen((current) => !current)}
       >
         {isOpen ? (
-          <div className="envelope-letter envelope-letter-open">
-            <h2 className="text-2xl font-semibold">To my love</h2>
-            <p className="mt-3 text-sm leading-relaxed text-amber-800">
-              Add your note here. You can also place an image below.
+          <div className="envelope-letter envelope-letter-open p-6 sm:p-8">
+            <p className="romantic-font mt-3 text-lg leading-relaxed text-amber-800 sm:text-xl">
+              <span className="block">Dear Otterington,</span>
+              <span className="block">
+               It&apos;s so rainy today! I wishhhh I was cuddling under soft sheets with my significant otter... I hope you are having an amazing time volunteering. I know your warmth is making so many peoples&apos; day a lot better! Since I&apos;ve known you, you&apos;ve been so good at that. I am also so happy that you are loving your new place, and that everyday is again so exciting! I am so so so proud of the person you are growing into! See you soon, otter-half.
+              </span>
+              <span className="mt-4 block text-right">Your Otter</span>
             </p>
-            <div className="mt-4 h-24 w-full rounded-md border-2 border-dashed border-rose-300 text-xs text-rose-400">
-              Image placeholder
+            <div className="mt-4 w-full overflow-hidden rounded-md">
+              <Image
+                src="/otteringtonGIF.gif"
+                alt="Otterington"
+                width={640}
+                height={480}
+                className="h-28 w-full object-contain sm:h-36"
+              />
             </div>
           </div>
         ) : null}
