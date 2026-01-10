@@ -15,6 +15,13 @@ export default function Bello() {
 
       <div className="flex flex-col space-y-4">
         <button
+          onClick={() => handleNavigation('/otterington')}
+          className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
+        >
+          Otterington
+        </button>
+
+        <button
           onClick={() => handleNavigation('/youandi')}
           className="w-64 p-3 bg-amber-900 text-white font-bold rounded-lg transition-all"
         >
